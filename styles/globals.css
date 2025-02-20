@@ -1,0 +1,19 @@
+/* ✅ Modified globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  @apply transition-colors duration-300;
+}
+
+@layer utilities {
+  .border-border {
+    border-color: theme('colors.neutral');
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
